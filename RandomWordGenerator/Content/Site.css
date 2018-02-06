@@ -1,0 +1,40 @@
+﻿#boddied {
+    margin: 0;
+    padding: 0;
+    background-color: #2B2F34;
+    margin-top: 20%;
+    text-align:center;
+    overflow: hidden;
+}
+
+#words {
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-size: 2em;
+        color: #f9f9f9;
+        text-shadow: 2px 2px #4e6589;
+}
+
+#words:focus {
+    text-shadow: 2px 2px #ff0000;
+    font-size: 5em;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
